@@ -1,6 +1,6 @@
 img:first-child {
     width: 8%;
-    min-width: 50px;
+    min-width: 40px;
     height: auto;
     position:absolute;
     left: 50%;
@@ -11,11 +11,11 @@ img:first-child {
 
 img:last-child {
     width: 20%;
-    min-width: 100px;
+    min-width: 110px;
     height: auto;
     position: absolute;
     left: 80%;
-    top:50%;
+    top:48%;
     animation:ease-in 3s heroaction infinite;
 }
 
