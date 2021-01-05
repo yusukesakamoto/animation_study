@@ -1,0 +1,46 @@
+img:first-child {
+    width: 8%;
+    min-width: 50px;
+    height: auto;
+    position:absolute;
+    left: 50%;
+    top:50%;
+    transform:rotate(0deg);
+    animation: linear 3s shirfaction infinite;
+}
+
+img:last-child {
+    width: 20%;
+    min-width: 100px;
+    height: auto;
+    position: absolute;
+    left: 80%;
+    top:50%;
+    animation:ease-in 3s heroaction infinite;
+}
+
+
+@keyframes shirfaction {
+    50% {
+        top:50%;
+        left: 40%;
+        transform:rotate(0deg);
+    }
+
+    100% {
+        left: -10%;
+        top: -10%;
+        transform: rotate(360deg);
+    }
+
+}
+
+@keyframes heroaction {
+    50% {
+        left:42%;
+    }
+
+    100% {
+        left: 41%;
+    }
+}
